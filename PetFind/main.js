@@ -205,7 +205,7 @@ function GetTrain(urll) {
             let result = document.getElementById('resultsss');
             result.innerHTML = '';
 
-            if (response.length == 0) {
+            if (response.length == 0 || $('#trainNum').val() == 0) {
                 let div = document.createElement('div');
                 div.classList = "alert alert-danger";
                 div.appendChild(document.createTextNode('Numerolla ei löydy junaa, kokeile toista numeroa!'));
