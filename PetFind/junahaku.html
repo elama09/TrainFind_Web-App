@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <script src="jquery-3.3.1.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+
+    <title>Junahaku</title>
+</head>
+<body>
+
+    <header class="bg-primary text-center mb-3 p-3">
+        <h1 class="">TrainFind Web-App</h1>
+        <p class=""></p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container mb-2">
+        <a class="navbar-brand" href="index.html">Reittihaku</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="asemahaku.html">Asemahaku</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="junahaku.html">Junahaku</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tietoja.html">Tietoja</a>
+                </li>
+            </ul>
+            <span class="navbar-text font-italic">Mahdollisesti maailman siistein junien reittihaku</span>
+        </div>
+    </nav>
+
+    <div id="divDanger" class="container">
+        <form id="formDanger">
+            <div class="form-group">
+                <label for="trainNum"><i>Junan numero</i></label>
+                <input id="trainNum" type="number" class="form-control form-control-lg mb-2"/>
+                <input id="findByTrain" class="btn btn-light btn-lg mt-3 btn-block" type="button" value="Find" />
+            </div>
+        </form>
+
+        <div id="resultsss">
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <script src="jquery-3.3.1.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <title>Tietoja</title>
+</head>
+<body>
+
+    <header class="bg-primary text-center mb-3 p-3">
+        <h1 class="font-weight-bold">TrainFind Web-App</h1>
+        <p class=""></p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container mb-3">
+        <a class="navbar-brand" href="index.html">Reittihaku</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="asemahaku.html">Asemahaku</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="junahaku.html">Junahaku</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="tietoja.html">Tietoja</a>
+                </li>
+            </ul>
+            <span class="navbar-text font-italic">Mahdollisesti maailman siistein junien reittihaku</span>
+        </div>
+    </nav>
+
+    <div id="" class="container">
+        <div class="jumbotron mb-3">
+            <h4 class="display-4 mb-3">Simppeli. Hieno. Kätevä.</h4>
+            <p class="lead">Tämän verkkosovelluksen avulla voit tarkastella Junien aikatauluja, asemia sekä yhteyksiä. Helposti ja nopeasti. </p>
+            <p class="lead">Tämän verkkosivun rakentamisessa on käytetty: HTML5, CSS, Bootstrap, JavaScript, jQuery</p>
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Lisätietoja</button>
+
+            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        Hienon verkkosivun voi rakentaa myös aika nopeasti käyttämällä sopivaa Front Frameworkiä.
+                        Esimerkiksi Bootstrap tai Foundation ovat hyvin käteviä ja suosittuja Frameworkkejä.
+                        Lisäksi näillä on hyvät dokumentaatiot, jolloin näiden oppiminen onnistuu kädenkäänteessä!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="card text-white bg-info mb-3 text-center" style="max-width: 21rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Maksimoi tehokkuus</h5>
+                        <p class="card-text">Rentodu ja keskity olennaiseen, poista turhat häiriötekijät ja voita tehokkuus puolellesi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white bg-success mb-3 text-center" style="max-width: 21rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Tee innolla</h5>
+                        <p class="card-text">Innostu ja hymyile kun suoritat. Saat ajan kulumaan nopeammin kuin huomaatkaan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white bg-dark mb-3 text-center" style="max-width: 21rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Uskalla ja opi</h5>
+                        <p class="card-text">Kokeile rohkeasti uusi juttuja ja tekniikoita. Vain yrittämällä voit onnistua tekemään uutta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col text-center">
+                <h4>Rakentanut ja Koodannut <span class="badge badge-secondary">Romppu</span></h4>
+                <span class="badge badge-dark p-2">Kesto</span><span class="badge badge-light p-2">n. 20 tuntia</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
